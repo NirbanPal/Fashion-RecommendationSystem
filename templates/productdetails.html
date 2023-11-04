@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Product Detail{% endblock title %}
+{% block main-content %}
+<div class="container my-5">
+    <div class="row">
+        <div class="col-sm-6 text-center align-self-center">
+            <img src="{{prod_desc.link}}" alt="{{prod_desc.product_image}}" height="" width="" class="img-fluid img-thumbnail">
+        </div>
+        <div class="col-sm-5 offset-sm-1">
+            <h2>Product Title:{{prod_desc.productDisplayName}}</h2>
+            <hr>
+            <p>Product Description:{{prod_desc.description}}</p> <br>
+            <h4>Rs: 100</h4> <br>
+            {% if item_already_in_cart %}
+            <a href="/cart" class="btn btn-warning shadow px-5 py-2">Go To Cart</a>
+            {% else %}
+            <a href="/add-to-cart/{{ prod_desc.id }}" class="btn btn-primary shadow px-5 py-2">Add to Cart</a>
+            {% endif %}
+
+            <h5 class="mt-5">Available Offers</h5>
+            <ul>
+                <li>Bank Offer 5% Unlimited Cashback on Flipkart Axis Bank Credit</li>
+                <li>Special Price Get extra ₹3000 off (price inclusive of discount)</li>
+                <li>No cost EMI ₹1,667/month. Standard EMI also available</li>
+                <li>Partner Offer ₹2000 Flipkart Gift Card on Every 1000th Transaction with a new Visa Debit/Credit Card
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="mx-3">
+    <h2>YOU ALSO CAN BUY THIS ITEMS TOO</h2>
+    <!-- Slider 2 -->
+    <div class="owl-carousel" id="slider6">
+        {% for prod in recom_list %}
+        <a href="http://127.0.0.1:8000/product-detail/{{prod.id}}" class="btn">
+          <div class="item"><img src="{{prod.link}}" alt="{{prod.product_image}}" height="200px"><span
+              class="fw-bold">{{prod.productDisplayName}}</span><br><span class="fs-5 m-1">Rs:100</span>
+          </div>
+        </a>
+        {% endfor %}
+    </div>
+</div>
+{% endblock main-content %}

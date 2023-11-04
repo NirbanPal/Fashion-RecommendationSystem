@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Cart{% endblock title %}
+{% block main-content %}
+{% if empty_cart %}
+<div class="container my-5">
+  <div class="row">
+   <h1 class="text-center mb-5">{{empty_cart}}</h1>
+   <div class="col-sm-12 d-flex justify-content-center">
+        <img src="https://cdni.iconscout.com/illustration/premium/thumb/empty-cart-5521508-4610092.png" alt="" srcset="" class="img-fluid img-thumbnail shadow-sm" height="400" width="400">
+    </div>    
+  </div>
+</div> 
+{% else %}
+<div class="container my-5">
+  <div class="row">
+   <h1 class="text-center mb-5">Shopping Cart</h1>
+   <div class="col-sm-12">
+   <div class="card">
+    <div class="card-body">
+     <h3>Cart</h3>
+     {% for cp in cartProd%}
+     <hr> 
+     <div class="row">
+      <div class="col-sm-3 text-center align-self-center"><img src="{{ cp.product_id.link }}" alt="" srcset="" class="img-fluid img-thumbnail shadow-sm" height="150" width="150"> </div>
+      <div class="col-sm-12">
+       <div>
+        <h5>{{cp.product_id.productDisplayName}}</h5>
+        <p class="mb-2 text-muted small">{{cp.product_id.description}}</p>
+        <!-- <div class="my-3">
+         <label for="quantity">Quantity: </label>
+         <a class="minus-cart btn" pid="{{cp.product_id.id}}"><i class="fas fa-minus-square fa-lg"></i></a>
+           <span id="quantity">{{cp.quantity}}</span>
+         <a class="plus-cart btn" pid="{{cp.product_id.id}}"><i class="fas fa-plus-square fa-lg"></i></a>
+        </div>  -->
+        <div class="d-flex justify-content-between">
+         <a href="#" class="btn btn-sm btn-secondary mr-3 remove-cart" pid="{{cp.product_id.id}}">Remove item </a>
+         <p class="mb-0"><span class="me-2"><s>RS 200</s></span><span><strong>RS 100</strong></span></p>
+        </div>
+       </div>
+      </div>
+     </div>
+     {% endfor %}
+ 
+    </div>
+   </div>
+  </div>
+ 
+  </div>
+ </div>
+
+
+
+{% endif %}
+
+{% endblock main-content %}
