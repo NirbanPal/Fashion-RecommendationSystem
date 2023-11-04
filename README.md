@@ -1,5 +1,5 @@
 # Fashion-RecommendationSystem
-<p>This is a fashion recommendation system which can be used by any e-commerce website. If this model is used in any e-commerce website they will get best recommendations of their product with 100% accuracy. Here I have used django for Web development purpose</p>
+<p>This is a fashion recommendation system which can be used by any e-commerce website. If this model is used in any e-commerce website they will get best recommendations of their product with 100% accuracy. Here I have used django for Web development purpose.</p>
 <p>In the DataTrained Folder, There are all required files to train the machine and make .pkl files. I have used 1002 images for tranning the machine. There is also a excel file from where you can understand the schema of the database also.</p>
 
 ### To run this website in your local computer follow the steps below and run the commands:
