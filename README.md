@@ -28,7 +28,7 @@
    <your_virtual_environment_name>\Scripts\activate
    ```
    
-6. Install requirements.py file->
+6. Install dependencies(requirements.py file)->
    
    ```python
    pip install -r requirements.py
