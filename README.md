@@ -31,7 +31,7 @@
 6. Install dependencies(requirements.py file)->
    
    ```python
-   pip install -r requirements.py
+   pip install -r requirements.txt
    ```
 
 7. Migrate your database->
