@@ -1,6 +1,11 @@
 # Fashion-RecommendationSystem
 <p>This is a fashion recommendation system which can be used by any e-commerce website. If this model is used in any e-commerce website they will get best recommendations of their product with 100% accuracy. Here I have used django for Web development purpose.</p>
-<p>In the DataTrained Folder, There are all required files to train the machine and make .pkl files. I have used 1002 images for tranning the machine. There is also a excel file from where you can understand the schema of the database also.</p>
+<p>In the DataTrained Folder, There are all required files to train the machine and make .pkl files. I have used 1002 images to train the machine. There is also a excel file from where you can understand the schema of the database also. So 5 products will be given as recommendatios for a product. If we use more numbers of the images to train the model it will give us more accurate recommendations. ResNet algorithm is used to train the machine by using those images.</p>
+
+<p><b>ResNet algorithm-</b>Residual Network (ResNet) is a deep learning model used for computer vision applications. It is a Convolutional Neural Network (CNN) architecture designed to support hundreds or thousands of convolutional layers. The layers are used to extract the features. Particularly we have used ResNet-50 algorithm here. So ResNet-50 is 50 layers deep. You can load a pretrained version of the neural network trained on more than a million images from the ImageNet database</p>
+
+**➤ TECH USED :**
+<p>HTML, CSS, BOOTSTRAP, JAVASCRIPT, JQUERY, DJANGO, PYTHON, MYSQL, NUMPY, PANDAS, TENSORFLOW, SKLEARN, PICKLE, JUPYTER NOTEBOOK, EXCEL</p>
 
 ### To run this website in your local computer follow the steps below and run the commands:
 
