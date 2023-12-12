@@ -7,7 +7,7 @@
 **➤ TECH USED :**
 <p>HTML, CSS, BOOTSTRAP, JAVASCRIPT, JQUERY, DJANGO, PYTHON, MYSQL, NUMPY, PANDAS, TENSORFLOW, SKLEARN, PICKLE, JUPYTER NOTEBOOK, EXCEL.</p>
 
-### To run this website in your local computer follow the steps below and run the commands:
+**➤ Setup this project :**
 
 1. Clone this git repo->
 
@@ -79,19 +79,19 @@
     ```python
     python manage.py runserver
     ```
-#### Glimpses of the website:
-   <p>Home page</p>
+**➤ Glimpses of the website :**
+   <p>⦿ Home page</p>
    <img src="https://i.ibb.co/0VTjPxs/screencapture-127-0-0-1-8000-2023-12-13-01-14-09.png" alt="screencapture-127-0-0-1-8000-2023-12-13-01-14-09" border="0">
-   <p>Empty cart</p>
+   <p>⦿ Empty cart</p>
    <img src="https://i.ibb.co/Kr8W55T/screencapture-127-0-0-1-8000-cart-2023-12-13-02-06-48.png" alt="screencapture-127-0-0-1-8000-cart-2023-12-13-02-06-48" border="0">
-   <p>Cart</p>
+   <p>⦿ Cart</p>
    <img src="https://i.ibb.co/k9JYsSY/screencapture-127-0-0-1-8000-cart-2023-12-13-02-09-58.png" alt="screencapture-127-0-0-1-8000-cart-2023-12-13-02-09-58" border="0">
-   <p>According to cart in the previous picture, this website is giving recommendations. For each product we are giving 5 recommendations.</p>
+   <p>⦿ According to cart in the previous picture, this website is giving recommendations. For each product we are giving 5 recommendations.</p>
    <img src="https://i.ibb.co/dGG9GKS/screencapture-127-0-0-1-8000-2023-12-13-02-10-58.png" alt="screencapture-127-0-0-1-8000-2023-12-13-02-10-58" border="0">
-   <p>Recommending the products in the "you also can buy this items too" section depending the product which is clicked</p>
+   <p>⦿ Recommending the products in the "you also can buy this items too" section depending the product which is clicked</p>
    <img src="https://i.ibb.co/9pL0hjf/screencapture-127-0-0-1-8000-product-detail-1542-2023-12-13-01-10-02.png" alt="screencapture-127-0-0-1-8000-product-detail-1542-2023-12-13-01-10-02" border="0">
    <img src="https://i.ibb.co/s1BWKT5/screencapture-127-0-0-1-8000-product-detail-1531-2023-12-13-01-02-18.png" alt="screencapture-127-0-0-1-8000-product-detail-1531-2023-12-13-01-02-18" border="0">
-   <p>According the cart, Recommendations</p>
+   <p>⦿ According the cart, Recommendations</p>
    <img src="https://i.ibb.co/4ZyGRbx/screencapture-127-0-0-1-8000-cart-2023-12-13-01-03-29.png" alt="screencapture-127-0-0-1-8000-cart-2023-12-13-01-03-29" border="0">
    <img src="https://i.ibb.co/TcpzFBL/screencapture-127-0-0-1-8000-2023-12-13-00-56-08.png" alt="screencapture-127-0-0-1-8000-2023-12-13-00-56-08" border="0">
    
