@@ -6,23 +6,23 @@
 
 1. Clone this git repo->
 
-  ```git
-  git clone <gitRepoLink>
-  ```
+   ```git
+   git clone <gitRepoLink>
+   ```
 2. Go to the directory->
 
    ```git
-   cd <directory>
+   cd Fashion-RecommendationSystem
    ```
    
-3. Put your django secret key in the settings.py SECRET_KEY section.
+3. Put django secret key in the settings.py SECRET_KEY section.
    
 4. Create virtual environment->
    
    ```python
    python -m venv <your_virtual_environment_name>
    ```
-5. To activate your virtual environment(windows)->
+5. To activate virtual environment(windows)->
 
    ```python
    <your_virtual_environment_name>\Scripts\activate
@@ -33,8 +33,24 @@
    ```python
    pip install -r requirements.txt
    ```
+7. Configure your database(I have used mysqlworkbench) or the default sqllite server can be used also->
 
-7. Migrate your database->
+   ```python
+   DATABASES = {
+        'default': {
+            'ENGINE': '<yourDatabaseEngine>',
+            'NAME': '<yourdatabasename>',
+            'USER' : '<username>',
+            'PASSWORD' : '<password>',
+            'PORT':<yourport>,
+            'HOST' : '<yourhost>',
+        }
+    }
+   ```
+   <p>For better understanding go through settings.py where I have shared an example database configaration. I have created the database in mysql workbench. Writing the   
+      credentials of the database in .env file and using that from that .env file will be a better practice</p>
+   
+8. Migrate database->
 
    ```python
    python manage.py makemigrations
@@ -43,8 +59,17 @@
    ```python
    python manage.py migrate
    ```
+9. Data Upload->
+   <p>As I have not shared the database file so The products and details have to be uploaded in the database. So for that create a database in mysql workbench and upload the 
+    csvfile(dbtestSmall1000.csv in dataTrained folder) there. From that database the products will be recommended. The machine is trained by using that products. Extra 
+    products can be added there as many as you can. This website will give recomendations from that extra product also</p>
+   
+10. Create superuser for accessing admin panel that the extraproducts or products can be added also from there->
+    ```python
+      python manage.py createsuperuser 
+    ```
 
-8. To run the application in your local machine->
+11. To run the application in local machine->
    
    ```python
    python manage.py runserver
