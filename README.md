@@ -71,9 +71,9 @@
 
 11. To run the application in local machine->
    
-   ```python
-   python manage.py runserver
-   ```
+    ```python
+    python manage.py runserver
+    ```
 
  
 
