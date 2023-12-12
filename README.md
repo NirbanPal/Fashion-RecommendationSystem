@@ -42,7 +42,7 @@
             'NAME': '<yourdatabasename>',
             'USER' : '<username>',
             'PASSWORD' : '<password>',
-            'PORT':<yourport>,
+            'PORT':<yourportnumber>,
             'HOST' : '<yourhost>',
         }
     }
@@ -75,20 +75,18 @@
     python manage.py runserver
     ```
 #### Glimpses of the website:
-   <a href="https://ibb.co/6gghgs2"><img src="https://i.ibb.co/dGG9GKS/screencapture-127-0-0-1-8000-2023-12-13-02-10-58.png" alt="screencapture-127-0-0-1-8000-2023-12-13-02-10-58" border="0"></a>
-   <a href="https://ibb.co/jWz7Pr7"><img src="https://i.ibb.co/k9JYsSY/screencapture-127-0-0-1-8000-cart-2023-12-13-02-09-58.png" alt="screencapture-127-0-0-1-8000-cart-2023-12-13-02-09-58" border="0"></a>
-   <a href="https://ibb.co/mcP4RRf"><img src="https://i.ibb.co/Kr8W55T/screencapture-127-0-0-1-8000-cart-2023-12-13-02-06-48.png" alt="screencapture-127-0-0-1-8000-cart-2023-12-13-02-06-48" border="0"></a>
-   <a href="https://ibb.co/7NPJ7qk"><img src="https://i.ibb.co/0VTjPxs/screencapture-127-0-0-1-8000-2023-12-13-01-14-09.png" alt="screencapture-127-0-0-1-8000-2023-12-13-01-14-09" border="0"></a>
-   <a href="https://ibb.co/yN1CpJM"><img src="https://i.ibb.co/9pL0hjf/screencapture-127-0-0-1-8000-product-detail-1542-2023-12-13-01-10-02.png" alt="screencapture-127-0-0-1-8000-product-detail-1542-2023-12-13-01-10-02" border="0"></a>
-   <a href="https://ibb.co/xSv0qnQ"><img src="https://i.ibb.co/4ZyGRbx/screencapture-127-0-0-1-8000-cart-2023-12-13-01-03-29.png" alt="screencapture-127-0-0-1-8000-cart-2023-12-13-01-03-29" border="0"></a>
-   <a href="https://ibb.co/t2dLq0Z"><img src="https://i.ibb.co/s1BWKT5/screencapture-127-0-0-1-8000-product-detail-1531-2023-12-13-01-02-18.png" alt="screencapture-127-0-0-1-8000-product-detail-1531-2023-12-13-01-02-18" border="0"></a>
-   <a href="https://ibb.co/kKkYWg1"><img src="https://i.ibb.co/TcpzFBL/screencapture-127-0-0-1-8000-2023-12-13-00-56-08.png" alt="screencapture-127-0-0-1-8000-2023-12-13-00-56-08" border="0"></a>
-   
- 
-
-
-
-
-
-
+   <p>Home page</p>
+   <img src="https://i.ibb.co/0VTjPxs/screencapture-127-0-0-1-8000-2023-12-13-01-14-09.png" alt="screencapture-127-0-0-1-8000-2023-12-13-01-14-09" border="0">
+   <p>Empty cart</p>
+   <img src="https://i.ibb.co/Kr8W55T/screencapture-127-0-0-1-8000-cart-2023-12-13-02-06-48.png" alt="screencapture-127-0-0-1-8000-cart-2023-12-13-02-06-48" border="0">
+   <p>Cart</p>
+   <img src="https://i.ibb.co/k9JYsSY/screencapture-127-0-0-1-8000-cart-2023-12-13-02-09-58.png" alt="screencapture-127-0-0-1-8000-cart-2023-12-13-02-09-58" border="0">
+   <p>According to cart in the previous picture, this website is giving recommendations. For each product we are giving 5 recommendations.</p>
+   <img src="https://i.ibb.co/dGG9GKS/screencapture-127-0-0-1-8000-2023-12-13-02-10-58.png" alt="screencapture-127-0-0-1-8000-2023-12-13-02-10-58" border="0">
+   <p>Recommending the products in the "you also can buy this items too" section depending the product which is clicked</p>
+   <img src="https://i.ibb.co/9pL0hjf/screencapture-127-0-0-1-8000-product-detail-1542-2023-12-13-01-10-02.png" alt="screencapture-127-0-0-1-8000-product-detail-1542-2023-12-13-01-10-02" border="0">
+   <img src="https://i.ibb.co/s1BWKT5/screencapture-127-0-0-1-8000-product-detail-1531-2023-12-13-01-02-18.png" alt="screencapture-127-0-0-1-8000-product-detail-1531-2023-12-13-01-02-18" border="0">
+   <p>According the cart, Recommendations</p>
+   <img src="https://i.ibb.co/4ZyGRbx/screencapture-127-0-0-1-8000-cart-2023-12-13-01-03-29.png" alt="screencapture-127-0-0-1-8000-cart-2023-12-13-01-03-29" border="0">
+   <img src="https://i.ibb.co/TcpzFBL/screencapture-127-0-0-1-8000-2023-12-13-00-56-08.png" alt="screencapture-127-0-0-1-8000-2023-12-13-00-56-08" border="0">
    
