@@ -5,7 +5,7 @@
 <p><b>ResNet algorithm-</b>Residual Network (ResNet) is a deep learning model used for computer vision applications. It is a Convolutional Neural Network (CNN) architecture designed to support hundreds or thousands of convolutional layers. The layers are used to extract the features. Particularly we have used ResNet-50 algorithm here. So ResNet-50 is 50 layers deep. You can load a pretrained version of the neural network trained on more than a million images from the ImageNet database</p>
 
 **➤ TECH USED :**
-<p>HTML, CSS, BOOTSTRAP, JAVASCRIPT, JQUERY, DJANGO, PYTHON, MYSQL, NUMPY, PANDAS, TENSORFLOW, SKLEARN, PICKLE, JUPYTER NOTEBOOK, EXCEL</p>
+<p>HTML, CSS, BOOTSTRAP, JAVASCRIPT, JQUERY, DJANGO, PYTHON, MYSQL, NUMPY, PANDAS, TENSORFLOW, SKLEARN, PICKLE, JUPYTER NOTEBOOK, EXCEL.</p>
 
 ### To run this website in your local computer follow the steps below and run the commands:
 
