@@ -1,8 +1,10 @@
 # Fashion-RecommendationSystem
 <p>This is a fashion recommendation system which can be used by any e-commerce website. If this model is used in any e-commerce website they will get best recommendations of their product with 100% accuracy. Here I have used django for Web development purpose.</p>
-<p>In the DataTrained Folder, There are all required files to train the machine and make .pkl files. I have used 1002 images to train the machine. There is also a excel file from where you can understand the schema of the database also. So 5 products will be given as recommendatios for a product. If we use more numbers of the images to train the model it will give us more accurate recommendations. ResNet algorithm is used to train the machine by using those images.</p>
+<p>In the DataTrained Folder, There are all required files to train the machine and make .pkl files. I have used 1002 images to train the machine. There is also a excel file from where you can understand the schema of the database also. So 5 products will be given as recommendations for a product. If admin or stuff adds any products to the inventory it will also show the recommendations according to that products which are added. If we use more numbers of the images to train the model it will give us more accurate recommendations. ResNet algorithm is used to train the machine by using those images.</p>
 
 <p><b>ResNet algorithm-</b>Residual Network (ResNet) is a deep learning model used for computer vision applications. It is a Convolutional Neural Network (CNN) architecture designed to support hundreds or thousands of convolutional layers. The layers are used to extract the features. Particularly we have used ResNet-50 algorithm here. So ResNet-50 is 50 layers deep. You can load a pretrained version of the neural network trained on more than a million images from the ImageNet database</p>
+
+<p>So I am using resnet algorithm here for extracting the features of the 1002 images. It will return 2048 features for each images. So here I will get 1002 features vetors. So here I will get a matrix of 1002*2048. So when a product will be clicked the image of that product will be send to the resnet algorithm and The algo will return a feature vector of that inputed product. Then Eucledian distance will be calculated from the feature vector of that inputed product with the 1002 features vector. So as I am showing you 5 recommendations so I will take the 5 features vector which are having the nearest distance from that inputed image feature vector. After that I will show you the images which are nearest. Of you train the data with More images it will give you more accurate results.</p>
 
 **➤ TECH USED :**
 <p>HTML, CSS, BOOTSTRAP, JAVASCRIPT, JQUERY, DJANGO, PYTHON, MYSQL, NUMPY, PANDAS, TENSORFLOW, SKLEARN, PICKLE, JUPYTER NOTEBOOK, EXCEL.</p>
@@ -79,6 +81,9 @@
     ```python
     python manage.py runserver
     ```
+
+**➤ Click this for the demo of this website/project (Youtube Link): <span><a href="https://www.youtube.com/embed/vw6wWSLbNVc?si=R8HBXgKU1YHy6DDD">Click Here</span>**
+
 **➤ Glimpses of the website :**
    <p>⦿ Home page</p>
    <img src="https://i.ibb.co/0VTjPxs/screencapture-127-0-0-1-8000-2023-12-13-01-14-09.png" alt="screencapture-127-0-0-1-8000-2023-12-13-01-14-09" border="0">
