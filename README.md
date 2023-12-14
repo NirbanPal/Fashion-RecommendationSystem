@@ -82,8 +82,8 @@
     python manage.py runserver
     ```
 
-**➤ Click this for the demo of this website/project :**
-     <p><a href="https://www.youtube.com/embed/vw6wWSLbNVc?si=R8HBXgKU1YHy6DDD"><img src="https://i.ibb.co/Q9qMMmZ/Screenshot-2023-12-14-182003.png" alt="Screenshot-2023-12-14-182003" border="0"></a></p>
+**➤ Click this for the demo of this website/project (Youtube Link): <span><a href="https://www.youtube.com/embed/vw6wWSLbNVc?si=R8HBXgKU1YHy6DDD">Click Here</span>**
+
 **➤ Glimpses of the website :**
    <p>⦿ Home page</p>
    <img src="https://i.ibb.co/0VTjPxs/screencapture-127-0-0-1-8000-2023-12-13-01-14-09.png" alt="screencapture-127-0-0-1-8000-2023-12-13-01-14-09" border="0">
